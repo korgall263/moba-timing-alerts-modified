@@ -46,7 +46,7 @@ def main():
 
         # Buff alerts (starting at 10:00, adjusted for 10s offset, then every 5 min)
         *[(9 * 60 + n * 5 * 60 - 10, buff_1min_sound, f'Buff {10 + n*5} min - 1 min alert') for n in range(0, 10)],     # 1 min before each buff
-        *[(9 * 60 + 20 + n * 5 * 60 - 10, buff_30sec_sound, f'Buff {10 + n*5} min - 30 sec alert') for n in range(0, 10)], # 30 sec before each buff
+        *[(9 * 60 + 30 + n * 5 * 60 - 10, buff_30sec_sound, f'Buff {10 + n*5} min - 30 sec alert') for n in range(0, 10)], # 30 sec before each buff
         *[(9 * 60 + 50 + n * 5 * 60 -10, buff_10sec_sound, f'Buff {10 + n*5} min - 10 sec alert') for n in range(0, 10)], # 10 sec before each buff
         *[(10 * 60 + n * 5 * 60 - 10, buff_spawn_sound, f'Buff {10 + n*5} min Spawn') for n in range(0, 10)],     # Buff at 10:00, 15:00, etc.
     ]
