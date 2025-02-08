@@ -28,14 +28,19 @@ Just saving you a step!
 Whatever you want.
 
 
-## Modieded ## - code updated with chatgpt, I am not a programmer
+## Modieded - code updated with ChatGPT, I am not a programmer, just kept plugging away until it worked
 
 Added:
 - Alt+p global pause (install keyboard - "pip install keyboard"
+- Alt+r to reset
 - "sync mm:ss" command
+- optional .exe
 - basic graphic display to show:
 - -current time
 - -paused or not
 - -3 next up events
 - -list of events except map check
+- -buttons to control time
+- -close button
+
 
