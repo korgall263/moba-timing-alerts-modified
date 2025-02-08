@@ -42,5 +42,6 @@ Added:
 - -list of events except map check
 - -buttons to control time
 - -close button
+![image](https://github.com/user-attachments/assets/2270afae-3a1a-48ab-9d8e-782cf1074265)
 
 
