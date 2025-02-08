@@ -28,13 +28,14 @@ Just saving you a step!
 Whatever you want.
 
 
-##Modieded## - code updated with chatgpt, I am not a programmer
+## Modieded ## - code updated with chatgpt, I am not a programmer
+
 Added:
--Alt+p global pause (install keyboard - "pip install keyboard"
--"sync mm:ss" command
+- Alt+p global pause (install keyboard - "pip install keyboard"
+- "sync mm:ss" command
 - basic graphic display to show:
---current time
---paused or not
---3 next up events
---list of events except map check
+- -current time
+- -paused or not
+- -3 next up events
+- -list of events except map check
 
